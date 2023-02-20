@@ -1,9 +1,10 @@
-def myFunction(String name = 'World') {
-   echo "Hello, ${name}!"
-}
+// vars/helloWorld.groovy
 
 def call() {
-    helloWorld.myFunction()
+    SharedLibrary.helloWorld()
 }
 
+def helloWorld() {
+    echo "Hello, world!"
+}
 
