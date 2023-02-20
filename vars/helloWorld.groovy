@@ -1,10 +1,10 @@
 // vars/helloWorld.groovy
 
 def call() {
-    SharedLibrary.helloWorld()
+     echo "Hello, world!"
 }
 
-def helloWorld() {
-    echo "Hello, world!"
-}
+// def helloWorld() {
+//     echo "Hello, world!"
+// }
 
