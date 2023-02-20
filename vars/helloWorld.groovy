@@ -1,9 +1,9 @@
-def helloWorld(String name = 'World') {
+def myFunction(String name = 'World') {
    echo "Hello, ${name}!"
 }
 
 def call() {
-    helloWorld.helloWorld()
+    helloWorld.myFunction()
 }
 
 
