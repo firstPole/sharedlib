@@ -1,7 +1,7 @@
 // vars/helloWorld.groovy
 
 def call() {
-     echo "Hello, world!"
+     writeFile "Hello, world!"
 }
 
 // def helloWorld() {
